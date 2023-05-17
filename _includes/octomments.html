@@ -1,0 +1,16 @@
+{%- if page.enable_comments and jekyll.environment == "production" -%}
+<div id="octomments"></div>
+<link rel="stylesheet" href="https://unpkg.com/octomments/build/ocs-ui.min.css" />
+<script src="https://unpkg.com/octomments/build/ocs.min.js"></script>
+<script>
+    Octomments({
+        github: {
+            owner: 'fp555',
+            repo: 'fp555'
+        },
+        issueNumber: {{ page.enable_comments }},
+        renderer: [OctommentsRenderer, '#octomments']
+    }).init();
+</script>
+<noscript>Please enable JavaScript to view the comments (powered by Octomments).</noscript>
+{%- endif -%}

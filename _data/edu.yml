@@ -1,0 +1,92 @@
+school:
+  -
+    name: Università Politecnica delle Marche
+    logo: assets/images/about/univpm.jpg
+    link: https://www.univpm.it/Entra/
+    title: Laurea Magistrale in Ingegneria Informatica e dell'Automazione
+    score: 106/110
+    start: 2014
+    end: 2017
+    location: Ancona, Italia
+    desc: "Tesi di laurea: Gestione delle prescrizioni mediche dematerializzate utilizzando una blockchain pubblica"
+    courses:
+      - Ingegneria del Software
+      - Informatica Multimediale
+      - Organizzazione dell'Impresa
+      - Tecniche per l'Informatica Distribuita
+      - Tecnologie per i Sistemi Informativi
+      - Linguaggi di Programmazione
+      - Sistemi Operativi II
+      - Teoria ed Applicazioni delle Microonde
+      - Intelligenza Artificiale
+      - Ricerca Operativa II
+      - Impianti di Elaborazione
+      - Misure e Strumentazione per l'Automazione
+  -
+    name: Università Politecnica delle Marche
+    logo: assets/images/about/univpm.jpg
+    link: https://www.univpm.it/Entra/
+    title: Laurea Triennale in Ingegneria Informatica e dell'Automazione
+    score: 98/110
+    start: 2009
+    end: 2014
+    location: Ancona, Italia
+    desc: "Tesi di Laurea: Sviluppo di una applicazione in ambiente Android per l'interfacciamento di un client SIP"
+    courses:
+      - Algebra Lineare e Geometria
+      - Analisi I
+      - Analisi II
+      - Calcolo delle Probabilità e Statistica Matematica
+      - Fisica Generale I
+      - Fisica Generale II
+      - Elementi di Elettronica
+      - Elettrotecnica
+      - Elettromagnetismo per la Trasmissione dell'Informazione
+      - Tecnologie per le Telecomunicazioni
+      - Fondamenti di Informatica
+      - Algoritmi e Strutture Dati
+      - Programmazione ad Oggetti
+      - Ricerca Operativa
+      - Sistemi Informativi e Basi di Dati
+      - Sistemi Operativi
+      - Tecnologie Web
+      - Fondamenti di Automatica
+      - Controlli Automatici
+      - Tecnologie per l'Automazione e la Robotica
+
+training:
+  -
+    name: Red Hat System Administration II (RH134)
+    logo: assets/images/about/redhat.png
+    link: https://www.redhat.com/en/services/training/rh134-red-hat-system-administration-ii
+    date: aprile 2022
+  -
+    name: Mastering the Requirements Process
+    logo: assets/images/about/volere.png
+    link: https://www.volere.org/course/mastering-the-requirements-process/
+    date: ottobre 2021
+  -
+    name: Elastic Observability Engineer
+    logo: assets/images/about/elastic.png
+    link: https://www.elastic.co/training/elastic-observability-engineer
+    date: giugno 2021
+  -
+    name: Elasticsearch Engineer
+    logo: assets/images/about/elastic.png
+    link: https://www.elastic.co/training/elasticsearch-engineer
+    date: maggio 2020
+  -
+    name: ITIL® 4 Foundation
+    logo: assets/images/about/itil.jpg
+    link: https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-foundation-2565
+    date: giugno 2019
+  -
+    name: Operations Manager i Software 10.6 Advanced
+    logo: assets/images/about/microfocus.png
+    link: https://www.flane.de/en/course-outline/microfocus-omi200
+    date: dicembre 2018
+  -
+    name: HackUNIVPM 2015
+    logo: assets/images/about/univpm.jpg
+    link: http://events.dii.univpm.it/HackUNIVPM2015/
+    date: novembre 2015

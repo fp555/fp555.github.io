@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+	<header class="post-header">
+		<h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+		<span class="post-meta">
+			{%- assign date_format = site.date_format %}
+			<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>
+			{%- if page.modified_date -%}
+			~
+			{%- assign mdate = page.modified_date | date_to_xmlschema -%}
+			<time class="dt-modified" datetime="{{ mdate | date_to_xmlschema}}" itemprop="dateModified">{{ mdate | date: date_format }}</time>
+			{%- endif -%}
+			{%- if page.author -%}
+			• {% for author in page.author %}
+			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<span class="p-author h-card" itemprop="name">{{ author }}</span>
+			</span>
+			{%- if forloop.last == false %}, {% endif -%}
+			{% endfor %}
+			{%- endif -%}
+		</span>
+	</header>
+	<div class="post-content e-content" itemprop="articleBody">
+		{{ content }}
+	</div>
+	<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+<div class="article-license">
+	<div class="cc-icons">
+		<svg class="svg-icon" viewBox="0 64 64 64"><use href="/fp555/assets/creative-commons.svg#cc"></use></svg>
+		<svg class="svg-icon" viewBox="0 0 64 64"><use href="/fp555/assets/creative-commons.svg#by"></use></svg>
+		<svg class="svg-icon" viewBox="0 128 64 64"><use href="/fp555/assets/creative-commons.svg#nc-eu"></use></svg>
+		<svg class="svg-icon" viewBox="0 192 64 64"><use href="/fp555/assets/creative-commons.svg#nd"></use></svg>
+	</div>
+    <span>This blog post is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</span>
+</div>
+{%- if jekyll.environment == 'production' and page.enable_comments -%}
+	{%- include octomments.html -%}
+{%- endif -%}

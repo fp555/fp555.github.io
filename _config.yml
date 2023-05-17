@@ -1,0 +1,73 @@
+url: https://fp555.github.io
+baseurl: /
+title: Website Title
+tagline: Short description
+description: Long description
+
+author:
+  name: GitHub User
+  email: your-email@domain.com
+  url: https://github.com/fp555
+
+timezone: Europe/Rome
+date_format: "%-d %B %Y"
+permalink: /:year/:y_day
+
+# classic, dark, solarized, solarized-dark
+skin: dark
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - pages/blog.html
+
+# set your GA ID to include analytics
+google_analytics: false
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-gist
+ - jekyll-mentions
+ - jekyll-redirect-from
+ - jekyll-relative-links
+ - jemoji
+
+feed:
+  path: feed.xml
+
+gist:
+  noscript: true
+
+redirect_from:
+  json: false
+
+relative_links:
+  enabled: true
+  collections: true
+
+emoji:
+  src: https://github.githubassets.com/images/icons/
+  
+sass:
+  implementation: sass-embedded
+  sourcemap: development
+
+# Github Pages defaults
+# safe changed to false to install non whitelisted plugins
+lsi: false
+safe: false
+incremental: false
+profile: false
+highlighter: rouge
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+ 
+# Settings for GitHub devcontainer
+# livereload not supported by Github environment
+port: 4000
+livereload: false
+
+# Jekyll will ignore these files/paths
+exclude: [README.md]

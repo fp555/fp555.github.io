@@ -1,0 +1,17 @@
+{%- if site.tts -%}
+<button id="tts" type="button" onclick="myTTS()">Listen</button>
+<script>
+if(typeof speechSynthesis === 'undefined') document.getElementById("tts").disabled = true;
+const myTTS = () => {
+  const ps = [...document.querySelectorAll("article p")].map(p => p.innerText);
+  const voices = speechSynthesis.getVoices().filter(v => v.lang === "{{ page.locale | replace_regex: '_', '-' }}");
+  ps.forEach(p => {
+    const tts = new SpeechSynthesisUtterance(p);
+	tts.voice = voices[Math.max(voices.findIndex(v => v.name.startsWith("Google")), 0)];
+	tts.pitch = 1.2;
+	tts.rate = 1.1;
+	tts.speak();
+  });
+}
+</script>
+{%- endif -%}

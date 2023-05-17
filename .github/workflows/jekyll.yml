@@ -1,0 +1,35 @@
+name: Jekyll build to gh-pages
+
+# manual for now
+on: workflow_dispatch
+
+jobs:
+  jekyll_build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # all history for all tags and branches
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true # runs 'bundle install' and caches installed gems
+      - name: Jekyll build
+        env:
+          JEKYLL_ENV: production
+        run: |
+          git worktree add --track _site gh-pages
+          bundle exec jekyll build
+          date > _site/.nojekyll
+      - name: Deploy to gh-pages
+        run: |
+          cd _site/
+          git add -A .
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git commit --amend -m "Jekyll build Action ${GITHUB_SHA}"
+          git push -f origin gh-pages
+      - name: Worktree cleanup
+        run: |
+          git worktree remove _site
+          git worktree prune

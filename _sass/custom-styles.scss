@@ -1,0 +1,35 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/custom-variables.scss` to override variable defaults)
+
+#rss-link {
+	text-decoration: none;
+}
+
+.rss-icon {
+	color: $rss-color;
+	width: auto;
+	height: 1em;
+}
+
+.article-license {
+	padding: 0 5%;
+	text-align: center;
+
+	.cc-icons {
+		border-top: 1px solid;
+		border-top-color: inherit;
+		padding-top: 8px;
+		color: $cc-color;
+		margin-bottom: 8px;
+
+		.svg-icon {
+			height: 32px;
+			width: auto;
+		}
+	}
+	
+	span {
+		font-size: $small-font-size;
+		font-style: italic;
+	}
+}

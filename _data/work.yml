@@ -1,0 +1,41 @@
+jobs:
+  -
+    title: Assistente IT
+    employer:
+      name: Banca d'Italia - Eurosistema
+      logo: assets/images/about/bdi.jpg
+      link: https://www.bancaditalia.it/
+    start: aprile 2018
+    end:
+    location: Roma, Italia
+    desc: Dipartimento di Informatica - Servizio Gestione Sistemi Informatici - Divisione reti, Sicurezza e Automazione
+    details:
+      - Amministrazione e gestione della piattaforma di Technical Monitoring degli apparati di rete, server, middleware e applicazioni nell'ambiente domestico della Banca;
+      - Partecipazione e supporto ai Release Team costituiti per il rilascio in esercizio di nuovi servizi ICT, per l'implementazione e attivazione dei controlli di monitoraggio.
+  -
+    title: Studente tirocinante
+    employer:
+      name: Università Politecnica delle Marche
+      logo: assets/images/about/univpm.jpg
+      link: https://www.univpm.it/Entra/
+    start: maggio 2017
+    end: novembre 2017
+    location: Ancona, Italia
+    desc: Web/Blockchain Developer all'interno del Dipartimento di Ingegneria dell'Informazione (DII)
+    details:
+      - Sviluppo di una applicazione web decentralizzata, basata su Node.js e Web3, per creare e validare ricette mediche dematerializzate;
+      - Sviluppo smart contracts in Solidity per applicazioni decentralizzate eseguite su blockchain Ethereum.
+  -
+    title: Studente tirocinante
+    employer:
+      name: Università Politecnica delle Marche
+      logo: assets/images/about/univpm.jpg
+      link: https://www.univpm.it/Entra/
+    start: aprile 2013
+    end: giugno 2013
+    location: Ancona, Italia
+    desc: Android Developer all'interno del Dipartimento di Ingegneria dell'Informazione (DII)
+    details:
+      - Sviluppo di un sistema di Home Automation in ambito Ambient Assisted Living e Internet of Things;
+      - Sviluppo applicazioni Android compatibili con un'ampia gamma di dispositivi (smartphone, tablet, Smart TV);
+      - Utilizzo protocollo SIP per scambio dati multimediali tra dispositivi connessi in una LAN.
