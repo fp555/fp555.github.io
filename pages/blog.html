@@ -13,6 +13,7 @@ permalink: /blog
 		{%- for post in site.posts -%}
 		<li itemprop="blogPost">
 			<time class="post-meta" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: site.date_format }}</time>
+			:{{ post.lang | default: "us" }}:
 			<a class="post-link" href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a>
 		</li>
       {%- endfor -%}
