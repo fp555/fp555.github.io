@@ -176,6 +176,7 @@
     display: flex;
     flex-flow: row nowrap;
     align-items: baseline;
+	column-gap: calc($spacing-unit / 2);
 
     > time {
       flex: 0 0 20%;
