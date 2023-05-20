@@ -1,13 +1,12 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/custom-variables.scss` to override variable defaults)
 
-#rss-link {
+.rss-link {
 	text-decoration: none;
 	
 	> .rss-icon {
 		color: $rss-color;
-		width: auto;
-		height: 1em;
+		padding-right: 7px;
 	}
 }
 
@@ -20,10 +19,11 @@
 		padding-top: 8px;
 		margin-bottom: 8px;
 
-		> .svg-icon {
+		> svg {
 			height: 32px;
 			width: auto;
 			fill: $background-color;
+			padding: 0 5px;
 		}
 	}
 	

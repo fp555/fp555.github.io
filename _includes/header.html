@@ -18,9 +18,6 @@
 				<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
 				{%- endif -%}
 				{%- endfor -%}
-				<a id="rss-link" class="page-link" href="{{ site.feed_path | default: 'feed.xml' | relative_url }}">
-					<svg class="svg-icon rss-icon" viewBox="0 0 16 16"><use href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg>
-				</a>
 			</div>
 		</nav>
 		{%- endif -%}
