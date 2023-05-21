@@ -1,4 +1,4 @@
-<footer class="site-footer h-card">
+<footer class="site-footer">
 	<div class="wrapper">
 		<div class="footer-col-wrapper">
 			<div class="footer-col">
@@ -8,23 +8,20 @@
 				{%- if site.author %}
 				<ul class="contact-list">
 					{% if site.author.name -%}
-					<li class="p-name">{{ site.author.name | escape }}</li>
+					<li>{{ site.author.name | escape }}</li>
 					{% endif -%}
 					{% if site.author.email -%}
-					<li>
-						<a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-					</li>
+					<li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
 					{%- endif %}
 					{% if site.description -%}
-					<br>
-					<li class="p-name">{{ site.description | escape }}</li>
+					<li class="cl-description">{{ site.description | escape }}</li>
 					{%- endif %}
 				</ul>
 				{%- endif %}
 			</div>
-			<div class="footer-col">
+			<div class="footer-col fc-counter">
 				<p>Website pages served by cute girls:</p>
-				<img src="https://count.getloli.com/get/@fp555?theme=rule34" alt="A cute and funny visitors counter">
+				<img src="https://count.getloli.com/get/@fp555?theme=rule34" alt="A cute and funny visitors counter" referrerpolicy="no-referrer" loading="lazy">
 			</div>
 		</div>
 	</div>

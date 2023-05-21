@@ -122,12 +122,12 @@
   margin-bottom: calc($spacing-unit / 2);
 }
 
-.contact-list, .social-media-list {
+.contact-list {
   list-style: none;
   margin-left: 0;
 }
 
-.footer-col-wrapper, .social-links {
+.footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $brand-color;
 }
@@ -197,6 +197,12 @@
 /* Posts */
 .post-header {
   margin-bottom: $spacing-unit;
+  
+  > img {
+    display: block;
+    margin: 0 auto $spacing-unit;
+	max-height: 300px;
+  }
 }
 
 .post-title, .post-content h1 {
