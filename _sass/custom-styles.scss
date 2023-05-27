@@ -38,7 +38,7 @@ li[itemprop="blogPost"] > .emoji {
 }
 
 .contact-list > .cl-description {
-	margin-top: $spacing-unit;
+	margin-top: calc($spacing-unit / 2);
 }
 
 .footer-col.fc-counter {
