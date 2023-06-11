@@ -10,8 +10,9 @@
 					{% if site.author.name and site.author.url -%}
 					<li><a href="{{ site.author.url }}">{{ site.author.name }}</a></li>
 					{% endif -%}
-					{% if site.author.email -%}
-					<li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+					{%- if site.author.email -%}
+					{% assign emailbody = "This is not a real email address, check instead the About page." -%}
+					<li><a href="mailto:{{ site.author.email }}?body={{ emailbody | url_encode }}">{{ site.author.email }}</a></li>
 					{% endif %}
 					{% if site.tagline -%}
 					<li class="cl-description">{{ site.tagline }}</li>
