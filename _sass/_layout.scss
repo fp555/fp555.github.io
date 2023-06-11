@@ -199,9 +199,8 @@
   margin-bottom: $spacing-unit;
   
   > img {
-    display: block;
     margin: 0 auto $spacing-unit;
-	max-height: 300px;
+	width: 100%;
   }
 }
 
