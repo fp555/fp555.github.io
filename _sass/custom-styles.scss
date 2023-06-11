@@ -39,6 +39,15 @@ li[itemprop="blogPost"] > .emoji {
 
 .contact-list > .cl-description {
 	margin-top: calc($spacing-unit / 2);
+	font-style: italic;
+	quotes: '«' '»' '"' '"';
+	
+	&::before {
+		content: open-quote;
+	}
+	&::after {
+		content: close-quote;
+	}
 }
 
 .footer-col.fc-counter {
