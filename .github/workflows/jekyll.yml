@@ -24,11 +24,13 @@ jobs:
               with:
                 ruby-version: '3.2'
                 bundler-cache: true # runs 'bundle install' and caches installed gems
+            - name: Add commit SHA to footer
+              run: sed -i "s/%%%SHA/$GITHUB_SHA/" _includes/footer.html
             - name: Jekyll build
               env:
                 JEKYLL_ENV: production
               run: bundle exec jekyll build
-            - name: Upload artifact # create github pages artifact for new deployment strategy
+            - name: Upload artifact # create github pages artifact
               uses: actions/upload-pages-artifact@v1
               with:
                 path: "_site/" # _site is the default jekyll build dir
