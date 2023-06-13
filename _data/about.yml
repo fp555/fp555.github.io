@@ -2,7 +2,7 @@ bio:
   name: Fabio Pollastri
   photo: assets/images/about/profile.jpg
   location: Roma, Italia
-  dob: 31 ottobre 1990
+  dob: 31 Oct 1990
   mail: 7722100+fp555@users.noreply.github.com
   github: https://github.com/fp555
   telegram: https://t.me/fp555
@@ -13,8 +13,8 @@ school:
     link: https://www.univpm.it/Entra/
     title: Laurea Magistrale in Ingegneria Informatica e dell'Automazione
     score: 106/110
-    start: settembre 2014
-    end: dicembre 2017
+    start: Sep 2014
+    end: Dec 2017
     location: Ancona, Italia
     desc: "Tesi di laurea: Gestione delle prescrizioni mediche dematerializzate utilizzando una blockchain pubblica"
 
@@ -23,17 +23,17 @@ school:
     link: https://www.univpm.it/Entra/
     title: Laurea Triennale in Ingegneria Informatica e dell'Automazione
     score: 98/110
-    start: settembre 2009
-    end: marzo 2014
+    start: Sep 2009
+    end: Mar 2014
     location: Ancona, Italia
-    desc: "Tesi di Laurea: Sviluppo di una applicazione in ambiente Android per l'interfacciamento di un client SIP"
+    desc: "Tesi di laurea: Sviluppo di una applicazione in ambiente Android per l'interfacciamento di un client SIP"
 
 jobs:
   - name: Banca d'Italia - Eurosistema
     logo: assets/images/about/bdi.jpg
     link: https://www.bancaditalia.it/
     title: Assistente IT
-    start: aprile 2018
+    start: Apr 2018
     end: present
     location: Roma, Italia
     desc: Dipartimento di Informatica - Servizio Gestione Sistemi Informatici - Divisione reti, Sicurezza e Automazione
@@ -43,8 +43,8 @@ jobs:
     logo: assets/images/about/univpm.jpg
     link: https://www.univpm.it/Entra/
     title: Studente tirocinante
-    start: maggio 2017
-    end: novembre 2017
+    start: May 2017
+    end: Nov 2017
     location: Ancona, Italia
     desc: Web/Blockchain Developer all'interno del Dipartimento di Ingegneria dell'Informazione (DII)
     details: Sviluppo di una applicazione web decentralizzata, basata su Node.js e Web3, per creare e validare ricette mediche dematerializzate; sviluppo smart contracts in Solidity per applicazioni decentralizzate eseguite su blockchain Ethereum.
@@ -53,44 +53,49 @@ jobs:
     logo: assets/images/about/univpm.jpg
     link: https://www.univpm.it/Entra/
     title: Studente tirocinante
-    start: aprile 2013
-    end: giugno 2013
+    start: Apr 2013
+    end: Jun 2013
     location: Ancona, Italia
     desc: Android Developer all'interno del Dipartimento di Ingegneria dell'Informazione (DII)
     details: Sviluppo di un sistema di Home Automation in ambito Ambient Assisted Living e Internet of Things; sviluppo applicazioni Android compatibili con un'ampia gamma di dispositivi (smartphone, tablet, Smart TV).
 
 training:
+  - name: Docker
+    logo: assets/images/about/docker.png
+    link: https://overneteducation.it/Home/DettaglioCorso/464/docker
+    date: May 2023
+
   - name: Red Hat System Administration II (RH134)
     logo: assets/images/about/redhat.png
     link: https://www.redhat.com/en/services/training/rh134-red-hat-system-administration-ii
-    date: aprile 2022
+    date: Apr 2022
 
   - name: Mastering the Requirements Process
     logo: assets/images/about/volere.png
     link: https://www.volere.org/course/mastering-the-requirements-process/
-    date: ottobre 2021
+    date: Oct 2021
 
   - name: Elastic Observability Engineer
     logo: assets/images/about/elastic.png
     link: https://www.elastic.co/training/elastic-observability-engineer
-    date: giugno 2021
+    date: Jun 2021
 
   - name: Elasticsearch Engineer
     logo: assets/images/about/elastic.png
     link: https://www.elastic.co/training/elasticsearch-engineer
-    date: maggio 2020
+    date: May 2020
 
   - name: ITIL® 4 Foundation
     logo: assets/images/about/itil.jpg
     link: https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-foundation-2565
-    date: giugno 2019
+    date: Jun 2019
 
   - name: Operations Manager i Software 10.6 Advanced
     logo: assets/images/about/microfocus.png
     link: https://www.flane.de/en/course-outline/microfocus-omi200
-    date: dicembre 2018
+    date: Dec 2018
 
   - name: HackUNIVPM 2015
     logo: assets/images/about/univpm.jpg
     link: http://events.dii.univpm.it/HackUNIVPM2015/
-    date: novembre 2015
+    date: Nov 2015
