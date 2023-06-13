@@ -1,0 +1,13 @@
+---
+title: About
+notitle: true
+layout: page
+permalink: /about
+---
+<section>
+	<ul>
+		{%- assign bio = site.data.about.bio -%}
+		<li><h3>{{ bio.name }}</h3></li>
+		<li>{{ bio.location }}&emsp;&mdash;&emsp;Born in {{ bio.dob | date: "%Y" }}</li>
+	</ul>
+</section>

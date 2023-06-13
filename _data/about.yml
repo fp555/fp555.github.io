@@ -1,7 +1,7 @@
 bio:
   name: Fabio Pollastri
   photo: assets/images/about/profile.jpg
-  location: Roma, Italia
+  location: Rome, Italy
   dob: 31 Oct 1990
   mail: 7722100+fp555@users.noreply.github.com
   github: https://github.com/fp555
@@ -15,7 +15,7 @@ school:
     score: 106/110
     start: Sep 2014
     end: Dec 2017
-    location: Ancona, Italia
+    location: Ancona, Italy
     desc: "Tesi di laurea: Gestione delle prescrizioni mediche dematerializzate utilizzando una blockchain pubblica"
 
   - name: Università Politecnica delle Marche
@@ -25,7 +25,7 @@ school:
     score: 98/110
     start: Sep 2009
     end: Mar 2014
-    location: Ancona, Italia
+    location: Ancona, Italy
     desc: "Tesi di laurea: Sviluppo di una applicazione in ambiente Android per l'interfacciamento di un client SIP"
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
     title: Assistente IT
     start: Apr 2018
     end: present
-    location: Roma, Italia
+    location: Roma, Italy
     desc: Dipartimento di Informatica - Servizio Gestione Sistemi Informatici - Divisione reti, Sicurezza e Automazione
     details: Amministrazione e gestione della piattaforma di Technical Monitoring degli apparati di rete, server, middleware e applicazioni nell'ambiente domestico della Banca; partecipazione e supporto ai Release Team costituiti per il rilascio in esercizio di nuovi servizi ICT.
 
@@ -45,7 +45,7 @@ jobs:
     title: Studente tirocinante
     start: May 2017
     end: Nov 2017
-    location: Ancona, Italia
+    location: Ancona, Italy
     desc: Web/Blockchain Developer all'interno del Dipartimento di Ingegneria dell'Informazione (DII)
     details: Sviluppo di una applicazione web decentralizzata, basata su Node.js e Web3, per creare e validare ricette mediche dematerializzate; sviluppo smart contracts in Solidity per applicazioni decentralizzate eseguite su blockchain Ethereum.
 
@@ -55,7 +55,7 @@ jobs:
     title: Studente tirocinante
     start: Apr 2013
     end: Jun 2013
-    location: Ancona, Italia
+    location: Ancona, Italy
     desc: Android Developer all'interno del Dipartimento di Ingegneria dell'Informazione (DII)
     details: Sviluppo di un sistema di Home Automation in ambito Ambient Assisted Living e Internet of Things; sviluppo applicazioni Android compatibili con un'ampia gamma di dispositivi (smartphone, tablet, Smart TV).
 
