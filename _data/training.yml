@@ -1,0 +1,39 @@
+- name: Docker
+  logo: assets/images/about/docker.png
+  link: https://overneteducation.it/Home/DettaglioCorso/464/docker
+  date: May 2023
+
+- name: Red Hat System Administration II (RH134)
+  logo: assets/images/about/redhat.png
+  link: https://www.redhat.com/en/services/training/rh134-red-hat-system-administration-ii
+  date: Apr 2022
+
+- name: Mastering the Requirements Process
+  logo: assets/images/about/volere.png
+  link: https://www.volere.org/course/mastering-the-requirements-process/
+  date: Oct 2021
+
+- name: Elastic Observability Engineer
+  logo: assets/images/about/elastic.png
+  link: https://www.elastic.co/training/elastic-observability-engineer
+  date: Jun 2021
+
+- name: Elasticsearch Engineer
+  logo: assets/images/about/elastic.png
+  link: https://www.elastic.co/training/elasticsearch-engineer
+  date: May 2020
+
+- name: ITIL® 4 Foundation
+  logo: assets/images/about/itil.jpg
+  link: https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-foundation-2565
+  date: Jun 2019
+
+- name: Operations Manager i Software 10.6 Advanced
+  logo: assets/images/about/microfocus.png
+  link: https://www.flane.de/en/course-outline/microfocus-omi200
+  date: Dec 2018
+
+- name: HackUNIVPM 2015
+  logo: assets/images/about/univpm.jpg
+  link: http://events.dii.univpm.it/HackUNIVPM2015/
+  date: Nov 2015

@@ -1,0 +1,19 @@
+- name: Università Politecnica delle Marche
+  logo: assets/images/about/univpm.jpg
+  link: https://www.univpm.it/Entra/
+  title: Laurea Magistrale in Ingegneria Informatica e dell'Automazione
+  score: 106/110
+  start: Sep 2014
+  end: Dec 2017
+  location: Ancona, Italy
+  desc: "Tesi di laurea: Gestione delle prescrizioni mediche dematerializzate utilizzando una blockchain pubblica"
+
+- name: Università Politecnica delle Marche
+  logo: assets/images/about/univpm.jpg
+  link: https://www.univpm.it/Entra/
+  title: Laurea Triennale in Ingegneria Informatica e dell'Automazione
+  score: 98/110
+  start: Sep 2009
+  end: Mar 2014
+  location: Ancona, Italy
+  desc: "Tesi di laurea: Sviluppo di una applicazione in ambiente Android per l'interfacciamento di un client SIP"

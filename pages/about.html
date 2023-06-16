@@ -6,7 +6,7 @@ permalink: /about
 ---
 <section>
 	<ul>
-		{%- assign bio = site.data.about.bio -%}
+		{%- assign bio = site.data.bio -%}
 		<li><h3>{{ bio.name }}</h3></li>
 		<li>{{ bio.location }}&emsp;&mdash;&emsp;Born in {{ bio.dob | date: "%Y" }}</li>
 	</ul>
