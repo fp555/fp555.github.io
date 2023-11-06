@@ -5,10 +5,10 @@ layout: default
 	<header class="post-header">
 		{% if page.image -%}
 		<img src="{{ page.image }}">
-		{% endif -%}
+		{%- endif -%}
 		{% unless page.notitle -%}
 		<h1 class="post-title">{{ page.title }}</h1>
-		{% endunless -%}
+		{%- endunless -%}
 	</header>
 	<div class="post-content">
 		{{ content }}

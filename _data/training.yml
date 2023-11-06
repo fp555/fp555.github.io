@@ -1,6 +1,11 @@
+- name: Kubernetes
+  logo: assets/images/about/kubernetes.png
+  link:
+  date: Oct 2023
+
 - name: Docker
   logo: assets/images/about/docker.png
-  link: https://overneteducation.it/Home/DettaglioCorso/464/docker
+  link:
   date: May 2023
 
 - name: Red Hat System Administration II (RH134)
@@ -30,7 +35,7 @@
 
 - name: Operations Manager i Software 10.6 Advanced
   logo: assets/images/about/microfocus.png
-  link: https://www.flane.de/en/course-outline/microfocus-omi200
+  link:
   date: Dec 2018
 
 - name: HackUNIVPM 2015
