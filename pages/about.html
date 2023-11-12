@@ -5,9 +5,13 @@ layout: page
 permalink: /about
 ---
 <section>
+	{% assign bio = site.data.bio -%}
+	<img src="{{ bio.photo | relative_url }}" alt="logo">
 	<ul>
-		{%- assign bio = site.data.bio -%}
 		<li><h3>{{ bio.name }}</h3></li>
 		<li>{{ bio.location }}&emsp;&mdash;&emsp;Born in {{ bio.dob | date: "%Y" }}</li>
+		<li><a href="{{ bio.mail | default: 'mailto:7722100+fp555@users.noreply.github.com' }}"><svg class="svg-icon" viewBox="0 0 16 16"><use href="{{ 'assets/minima-social-icons.svg#gmail' | relative_url }}"></use></svg></a></li>
+		<li><a href="{{ bio.github | default: site.author.url}}"><svg class="svg-icon" viewBox="0 0 16 16"><use href="{{ 'assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a></li>
+		<li><a href="{{ bio.telegram | default: '#'}}"><svg class="svg-icon" viewBox="0 0 16 16"><use href="{{ 'assets/minima-social-icons.svg#telegram' | relative_url }}"></use></svg></a></li>
 	</ul>
 </section>

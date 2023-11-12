@@ -5,17 +5,13 @@
 				<p><a class="page-link rss-link" href="{{ site.feed_path | default: 'feed.xml' | relative_url }}">
 					<svg class="svg-icon rss-icon" viewBox="0 0 16 16"><use href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg>
 				Subscribe</a></p>
-				{% if site.author -%}
 				<ul class="contact-list">
-					{% if site.author.name and site.author.url -%}
 					<li>Website by <a href="{{ site.author.url }}">{{ site.author.name }}</a></li>
-					{% endif -%}
 					<li>Commit {{ "%%%SHA" | truncate: 7, "" }} built {{ site.time | date: "%F %R" }}</li>
 					{% if site.tagline -%}
 					<li class="cl-description">{{ site.tagline }}</li>
 					{% endif -%}
 				</ul>
-				{% endif -%}
 			</div>
 			<div class="footer-col fc-counter">
 				<p>Website pages served by cute anime catgirls:</p>

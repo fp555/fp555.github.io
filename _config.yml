@@ -2,14 +2,11 @@ url: https://fab.pm
 baseurl: /
 title: fab.pm
 tagline: Yet another personal blog
-description: A personal Jekyll blog hosted on Github Pages where I post my thoughts
+description: A personal Jekyll blog hosted on Github Pages
 logo: assets/images/favicon/android-chrome-512x512.png
-
 author:
   name: fp555
-  email: mail@fab.pm
   url: https://github.com/fp555
-
 timezone: Europe/Rome
 date_format: "%-d %B %Y"
 permalink: /:year/:y_day
@@ -21,9 +18,9 @@ skin: dark
 # this and add the path to the pages in order as they should show up
 header_pages:
  - pages/blog.html
-
-# set your GA ID to include analytics
-google_analytics: false
+ 
+ # Jekyll will ignore these files/paths
+exclude: [README.md]
 
 plugins:
  - jekyll-feed
@@ -49,26 +46,24 @@ relative_links:
 
 emoji:
   src: https://github.githubassets.com/images/icons/
-  
-sass:
-  implementation: sass-embedded
-  sourcemap: development
+
+# set your GA ID to include analytics
+google_analytics: false
 
 # Github Pages defaults
-# safe changed to false to install non whitelisted plugins
 lsi: false
-safe: false
+safe: false # changed from true to install non whitelisted plugins
 incremental: false
 profile: false
 highlighter: rouge
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+sass:
+  implementation: sass-embedded
+  sourcemap: development
  
 # Settings for GitHub devcontainer
 # livereload not supported by Github environment
 port: 4000
 livereload: false
-
-# Jekyll will ignore these files/paths
-exclude: [README.md]
